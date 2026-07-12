@@ -26,7 +26,7 @@ function saveForm() {
             form.elements.message.value = formData.message;
 
         } catch (error) {
-            console.error('Wrong parse data from Local Store'.error);
+            console.error('Wrong parse data from Local Store', error);
         }
     };
 };
